@@ -86,9 +86,8 @@ const ContentWrapper = styled.div`
 `;
 
 const MainTitle = styled.h1`
-
   font-weight: 700;
-  font-size: clamp(2.5rem, 4.5vw, 4rem);
+  font-size: clamp(2rem, 4.5vw, 4rem);
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.15;
@@ -96,36 +95,35 @@ const MainTitle = styled.h1`
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 
   @media (max-width: 768px) {
-    font-size: clamp(2.5rem, 4.5vw, 4rem);
+    font-size: clamp(1.7rem, 4vw, 2.5rem);
     letter-spacing: 0.02em;
     line-height: 1.2;
   }
 
   @media (max-width: 480px) {
-     font-size: clamp(2.5rem, 4.5vw, 4rem);
   }
 `;
 
 const MainTitlesub = styled.h2`
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 400;
-    font-size: clamp(1.2rem, 2.2vw, 1rem);
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    margin: 0 0 1.5rem 0;
-    color: #fff;
-    opacity: 0.85;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 0.9rem);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin: 0 0 1.2rem 0;
+  color: #fff;
+  opacity: 0.85;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
 
-    @media (max-width: 768px) {
-        font-size: clamp(1.2rem, 2.2vw, 1rem);
-        margin-bottom: 1rem;
-    }
+  @media (max-width: 768px) {
+    font-size: clamp(0.9rem, 1.8vw, 0.8rem);
+    margin-bottom: 0.8rem;
+  }
 
-    @media (max-width: 480px) {
-        font-size: clamp(1.2rem, 2.2vw, 1rem);
-    }
+  @media (max-width: 480px) {
+    font-size: clamp(0.7rem, 3vw, 0.9rem);
+  }
 `;
 
 const Subtitle = styled.h2`
@@ -139,9 +137,15 @@ const Subtitle = styled.h2`
   max-width: 800px;
 
   @media (max-width: 768px) {
-    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+    font-size: clamp(1.1rem, 3.5vw, 1.2rem);
     margin-bottom: 2rem;
     max-width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: clamp(0.9rem, 4vw, 1rem);
+    margin-bottom: 1.2rem;
+    max-width: 98%;
   }
 `;
 
@@ -176,6 +180,12 @@ const CTAButton = styled(ScrollLink)`
   @media (max-width: 768px) {
     padding: 1rem 2.5rem;
     font-size: clamp(0.95rem, 3vw, 1.1rem);
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
   }
 `;
 

@@ -246,34 +246,34 @@ const WhatsAppButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75rem;
-  background: none; /* Fundo transparente */
-  color: ${BUTTON_SECONDARY_TEXT}; /* Texto claro */
-  padding: 1rem 2.5rem;
+  gap: 0.5rem;
+  background: none;
+  color: ${BUTTON_SECONDARY_TEXT};
+  padding: 0.75rem 1.5rem;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: 2px solid ${BUTTON_SECONDARY_BORDER}; /* Borda clara */
+  letter-spacing: 0.04em;
+  border: 2px solid ${BUTTON_SECONDARY_BORDER};
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  align-self: center; /* Centraliza o botão */
-  margin-top: 1rem;
+  align-self: center;
+  margin-top: 0.75rem;
 
   svg {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 
   &:hover {
-    background: rgba(240, 240, 240, 0.1); /* Fundo sutil no hover */
+    background: rgba(240, 240, 240, 0.1);
     border-color: ${ACCENT_COLOR};
     color: ${ACCENT_COLOR};
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
 
   &:active {
@@ -283,9 +283,9 @@ const WhatsAppButton = styled.a`
   }
 
   @media (max-width: 480px) {
-    width: 100%; /* Ocupa largura total no mobile */
-    padding: 0.875rem 1.5rem;
-    font-size: 1rem;
+    width: 100%;
+    padding: 0.65rem 1rem;
+    font-size: 0.8rem;
   }
 `;
 
