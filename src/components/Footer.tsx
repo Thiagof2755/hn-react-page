@@ -262,7 +262,7 @@ const Footer: React.FC = () => {
 
                     <SocialLinks>
                         <SocialLink
-                            href="https://instagram.com/hnengenharia"
+                            href="https://instagram.com/h4884nengenharia"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Instagram da HN Engenharia"
@@ -271,7 +271,7 @@ const Footer: React.FC = () => {
                         </SocialLink>
 
                         <SocialLink
-                            href="https://linkedin.com/company/hnengenharia"
+                            href="https://linkedin.com/company/hn8448engenharia"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn da HN Engenharia"
